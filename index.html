@@ -5,38 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>Color Generator</title>
 </head>
 <body>
     
     <div class="main">
+        <div class="popup">
+            <i class="fas fa-times"></i>
+            <p>dwsedr</p>
+        </div>
         <header>
             <h1>Color Palette Generator</h1>
         </header>
         <div class="palette-container">
             <div class="color-card">
-                <div style="background-color:#179011" class="color"></div>
-                <p>#179011</p>
+                <div  class="color">
+                    <i tooltip="copy" class="far fa-2x fa-copy"></i>
+                </div>
+                <p></p>
             </div>
             <div class="color-card">
-                <div style="background-color:#E074CB" class="color"></div>
-                <p>#E074CB</p>
+                <div  class="color">
+                    <i tooltip="copy" class="far fa-2x fa-copy"></i>
+                </div>
+                <p></p>
             </div>
             <div class="color-card">
-                <div style="background-color:#224BE3" class="color"></div>
-                <p>#224BE3</p>
+                <div  class="color">
+                    <i tooltip="copy" class="far fa-2x fa-copy"></i>
+                </div>
+                <p></p>
             </div>
             <div class="color-card">
-                <div style="background-color:#71E51F" class="color"></div>
-                <p>#71E51F</p>
+                <div  class="color">
+                    <i tooltip="copy" class="far fa-2x fa-copy"></i>
+                </div>
+                <p></p>
             </div>
         </div>
         <div class="generate-container">
             <button id="generate">Generate</button>
         </div>
     </div>
-
-
     <script src="./index.js"></script>
+
 </body>
 </html>

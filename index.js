@@ -4,6 +4,7 @@ const generateBtn = document.querySelector("#generate");
 const closePopup = document.querySelector(".fa-times");
 const popup = document.querySelector(".popup");
 
+
 const generateRandomHexColor = () => {
     let color = '#';
     for (let i = 0; i < 6; i++){
@@ -15,7 +16,6 @@ const generateRandomHexColor = () => {
 }
 
 const showPopup = (popup,colorText) => {
-    popup.style.display = 'flex';
     popup.style.transform = "translateY(0%)"
     popup.style.backgroundColor = colorText;
     popup.children[1].innerText = `Color ${colorText} copied to your clipboard`;
@@ -54,5 +54,5 @@ window.addEventListener("keypress",(e) => {
 })
 closePopup.addEventListener("click",(e) => {
    const parentNode = e.target.parentNode;
-   parentNode.style.display = "none";
+   parentNode.style.transform = "translateY(-110%)"
 })

@@ -12,7 +12,7 @@
     font-family: 'Lato', sans-serif;
 }
 header {
-    padding:1rem;
+    /* padding:1rem; */
     text-align: center;
 }
 header h1 {
@@ -110,8 +110,7 @@ header h1 {
     justify-content:center;
     align-items:center;
     position:relative;
-    display: none;
-    transform: translateY(-100%);
+    transform: translateY(-120%);
     transition:ease-out 0.3s;
     text-align: center;
 }

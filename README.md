@@ -11,3 +11,5 @@ In today's world, design is everything. Choosing the right color palette for a p
 
 # Tech Stack
 VanillaJS was used to build this application.
+
+[Live Demo](https://jawadsab.github.io/Color-Generator/)
